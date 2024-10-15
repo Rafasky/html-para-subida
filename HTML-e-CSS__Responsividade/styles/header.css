@@ -29,6 +29,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    z-index: 2;
 }
 
 .container__botao {
@@ -42,6 +43,8 @@
 .lista-menu__titulo, .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
+    margin: 0;
+    border: 1px solid var(--branco);
 }
 
 .lista-menu__titulo {
